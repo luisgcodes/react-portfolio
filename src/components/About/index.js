@@ -1,11 +1,24 @@
-import React from 'react';
 
-function About() {
+const About = () => {
   return (
-    <section>
-      <h1 id="about">Hello World</h1>
+    <section className="content" id="about">  
+      <h1>About Me</h1>
+      <div className="about-me">
+        <div>
+          <p>Hello, I'm Luis — An Aspiring Software Engineer who is on the road to specialize in Front-end Development.</p>
+          <p> 
+          Front-end development caught my attention late of 2021 and ever since it has kept it's grip on me. I began to do research and soon decided to go the "Self Taught" route but I knew that if I wanted to get the most out of the early stages of my journey, I should enroll in a bootcamp and that's what I did.
+          </p>
+          {/* <hr /> */}
+          <p>
+          Apart from this new found love, I enjoy gaming and finding new ways to become as creative as I can be with the things I get into. I've dipped my toes in photography, photoshop, video editing, designing and producing shirts/decals.
+          </p>
+
+        </div>
+        
+      </div>
     </section>
-  );
+  )
 }
 
 export default About;

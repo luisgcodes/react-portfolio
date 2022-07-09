@@ -3,10 +3,10 @@ import './App.css';
 
 import Header from './components/Header';
 import About from './components/About';
-import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
-import ContactForm from "./components/Contact";
 import Resume from "./components/Resume";
+import ContactForm from "./components/Contact";
+import Footer from './components/Footer';
 
 function App() {
   const [currentPage, handlePageChange] = useState("About me");
@@ -27,9 +27,9 @@ function App() {
   };
   return (
     <div>
-      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
       {renderPage()}
-      <Footer />
+      <Footer/>
     </div>   
   );
 }

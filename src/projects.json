@@ -1,0 +1,32 @@
+[
+    {
+      "id": "project-one", 
+      "name": "Self-Management-App",  
+      "pageUrl": "https://self-management-app.herokuapp.com/", 
+      "githubUrl": "https://github.com/Callank21/Self-Management-App"
+    },
+    {
+      "id": "project-two", 
+      "name": "Note Taker", 
+      "pageUrl": "https://myfavnotetakingapp.herokuapp.com/notes", 
+      "githubUrl": "https://github.com/luisgcodes/Note-Taker"
+    },
+    {
+      "id": "project-three", 
+      "name": "Workday Scheduler",  
+      "pageUrl": "https://luisgcodes.github.io/work-day-scheduler/", 
+      "githubUrl": "https://github.com/luisgcodes/work-day-scheduler"
+    },
+    {
+        "id": "project-four", 
+        "name": "Password Generator", 
+        "pageUrl": "  https://luisgcodes.github.io/password-generator/", 
+        "githubUrl": "https://github.com/luisgcodes/password-generator"
+      },
+    {
+      "id": "project-five", 
+      "name": "Weather Dashboard", 
+      "pageUrl": "https://luisgcodes.github.io/Weather-Dashboard/", 
+      "githubUrl": "https://github.com/luisgcodes/Weather-Dashboard"
+    }
+  ]

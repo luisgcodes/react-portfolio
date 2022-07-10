@@ -62,7 +62,7 @@ h2 {
   max-width: 250px;
 }
 
-/* Header styles */
+/* Header Styles */
 header {
   display: flex;
   flex-wrap: wrap;
@@ -96,6 +96,7 @@ header nav ul li a {
   font-size: 18px;
   cursor: pointer;
   border-bottom: 3px solid transparent;
+  background: transparent;
 }
 
 header nav ul li a:hover {
@@ -112,3 +113,57 @@ header nav ul li a:hover {
   padding: 20px 30px;
   margin-left: 30px;
 }
+
+.content {
+  min-height: calc(100vh - 255px);
+}
+
+/* About me styles */
+.about-me {
+  padding: 45px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
+}
+/* About me headshot */
+.about-me img {
+  flex: 0 14%;
+  width: 200px;
+  height: 100%;
+  border-radius: 10%;
+}
+
+.about-me div > * {
+  padding-bottom: 18px;
+}
+
+.about-me div p:first-of-type::after {
+  content: "";
+  display: block;
+  border-bottom: 4px solid var(--link-color);
+  width: 55px;
+}
+
+.about-me div hr {
+  content: "";
+  display: block;
+  border: none;
+  border-bottom: 4px solid var(--link-color);
+  width: 100px;
+  text-align: center;
+}
+
+.about-me div {
+  flex: 0 50%;
+  align-self: center;
+}
+
+.about-me div p:first-of-type {
+  font-size: 22px;
+}
+
+.about-me div p {
+  width: 85%;
+}
+

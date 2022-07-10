@@ -191,7 +191,7 @@ header nav ul li a:hover {
   text-decoration: none;
   background-color: var(
     --tertiary-color
-  ); /* fall back for project background images */
+  );
 }
 
 .project-list > li:nth-child(even) {
@@ -203,7 +203,8 @@ header nav ul li a:hover {
 }
 
 .project-list > li:hover {
-  border-bottom: none; /* prevent border from appearing on project images */
+  border-bottom: none; 
+  background-color: var(--secondary-color)
 }
 
 .project-list > li::before {
@@ -217,7 +218,7 @@ header nav ul li a:hover {
   z-index: -1;
 }
 
-/* Projects*/
+/* Projects images*/
 
 .project-one::before {
   background-image: url(./assets/images/selfManagementApp.png); 
@@ -227,4 +228,52 @@ header nav ul li a:hover {
 .project-two::before {
   background-image: url(./assets/images/note taker.PNG); 
   background-size: cover;
+}
+
+.project-three::before {
+  background-image: url(./assets/images/workday.PNG);
+  background-size: cover;
+}
+
+.project-four::before {
+  background-image: url(./assets/images/pw gen1.PNG);
+  background-size: cover;
+}
+
+.project-five::before {
+  background-image: url(./assets/images/weatherdash.PNG);
+  background-size: cover;
+}
+
+/* Project styles */
+
+.project-title {
+  font-size: 26px;
+  text-decoration: none;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.project-title:hover {
+  color: var(--link-color);
+}
+
+.project-list .project-description {
+  display: block;
+  padding: 20px 20px 15px;
+  position: relative;
+  top: 80px;
+  align-self: flex-start;
+  visibility: hidden;
+}
+
+.project-list p {
+  font-size: 18px;
+  padding-top: 10px;
+  color: #fff;
+  radius: 15%;
+}
+
+.project-list li:hover .project-description {
+  visibility: visible;
 }

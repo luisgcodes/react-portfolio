@@ -1,6 +1,4 @@
 # React Portfolio
-## React Challenge
-
 ## Description
 This is my updated Portfolio! Except this time, its done with React!! Check it out?  
 

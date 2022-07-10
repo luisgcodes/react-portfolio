@@ -1,7 +1,7 @@
 // Navigation Bar
 const Navigation = ({currentPage, handlePageChange}) => {
 
-  const navLinks = ["About me", "Portfolio", "Resume", "Contact"];
+  const navLinks = ["About Me", "Portfolio", "Resume", "Contact"];
 
   return (
     <nav>

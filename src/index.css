@@ -189,9 +189,7 @@ header nav ul li a:hover {
   position: relative;
   z-index: 1;
   text-decoration: none;
-  background-color: var(
-    --tertiary-color
-  );
+  background-color: var(--tertiary-color);
 }
 
 .project-list > li:nth-child(even) {
@@ -203,8 +201,8 @@ header nav ul li a:hover {
 }
 
 .project-list > li:hover {
-  border-bottom: none; 
-  background-color: var(--secondary-color)
+  border-bottom: none;
+  background-color: var(--secondary-color);
 }
 
 .project-list > li::before {
@@ -221,12 +219,12 @@ header nav ul li a:hover {
 /* Projects images*/
 
 .project-one::before {
-  background-image: url(./assets/images/selfManagementApp.png); 
+  background-image: url(./assets/images/selfManagementApp.png);
   background-size: cover;
 }
 
 .project-two::before {
-  background-image: url(./assets/images/note taker.PNG); 
+  background-image: url(./assets/images/note taker.PNG);
   background-size: cover;
 }
 
@@ -300,3 +298,68 @@ header nav ul li a:hover {
   margin-left: 3px;
   vertical-align: middle;
 }
+
+/* Contact Form */
+.contact-form {
+  flex: 100%;
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-form div {
+  display: contents;
+}
+
+.contact-form label {
+  flex: 100%;
+  font-size: 1.125rem;
+  color: var(--primary-color);
+}
+
+.contact-form input {
+  height: 40px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--link-color);
+  color: #fff;
+}
+
+.contact-form input,
+.contact-form textarea {
+  flex: 100%;
+  margin-bottom: 10px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 2px solid var(--primary-color);
+}
+
+.contact-form textarea {
+  font-family: var(--sans-serif);
+  padding-top: 8px;
+  color: #fff;
+}
+
+.contact-form button {
+  flex: 0 50%;
+  padding: 10px;
+  margin: 15px auto;
+  color: #ffff;
+  font-size: 1.125rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.error-text {
+  flex: 100%;
+  height: 1.5em;
+  color: red;
+  font-size: 16px;
+}
+

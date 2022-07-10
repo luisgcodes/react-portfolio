@@ -4,7 +4,7 @@ import { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 
 const ContactForm = () => {
-    
+
   const [ formState, setFormState ] = useState({ name: "", email: "", message: "" });
   const { name, email, message } = formState;
   const [ errorMessage, setErrorMessage ] = useState("");
@@ -60,7 +60,7 @@ const ContactForm = () => {
             <p className="error-text">{errorMessage}</p>
         </div>
 
-        <button type="submit">Submit</button>
+        <button className="submit "type="submit">Submit</button>
 
       </form>
 

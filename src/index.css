@@ -356,6 +356,11 @@ header nav ul li a:hover {
   cursor: pointer;
 }
 
+.submit:hover {
+  color: #fff;
+  background-color: var(--link-primary)
+}
+
 .error-text {
   flex: 100%;
   height: 1.5em;
@@ -363,3 +368,66 @@ header nav ul li a:hover {
   font-size: 16px;
 }
 
+/* footer styles */
+.footer-section {
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-links {
+  flex: 1;
+}
+
+.footer-links section:first-child {
+  padding-bottom: 40px;
+}
+
+.footer-links li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.footer-links a {
+  font-family: var(--sans-serif);
+  color: var(--primary-color);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footer-links a img {
+  width: 40px;
+}
+
+.footer-links li:nth-child(2) {
+  margin: 0 12px 0 15px;
+}
+
+.footer-section p {
+  padding-top: 20px;
+}
+
+.footer-links li a span {
+  background: #fff;
+}
+
+/* .icon-linkedin {
+  mask: url(../src/assets/icons/linkedin-logo.svg);
+  vertical-align: bottom;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  width: 45px;
+  height: 45px;
+}
+
+.icon-github {
+  mask: url(../src/assets/icons/github-logo.svg);
+  vertical-align: bottom;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  width: 45px;
+  height: 45px;
+}
+.icon-linkedin:hover {
+  background: var(--link-color);
+} */

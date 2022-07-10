@@ -4,7 +4,7 @@ import projects from "../../projects.json";
 const Portfolio = () => {
   return (
     <>
-      <h1>Portfolio</h1>
+      <h1>PORTFOLIO</h1>
       <section id="my-work" className="my-work content">   
         <ul className="project-list">
           {projects.map((project) => (

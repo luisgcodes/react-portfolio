@@ -431,3 +431,142 @@ header nav ul li a:hover {
 .icon-linkedin:hover {
   background: var(--link-color);
 } */
+
+/* Responsive */
+@media screen and (max-width: 1365px) {
+  h1 {
+      flex: 0 20%;
+  }
+
+  .about-me div p {
+      width: 95%;
+  }
+
+  .about-me img {
+      margin: 0px 20px;
+      padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  header nav {
+    justify-content: space-around;
+    padding: 0 0 20px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .header-block {
+    margin-left: 0;
+  }
+
+  header nav ul li a {
+    margin: 16px;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    justify-content: center;
+  }
+
+  .project-list > li {
+    flex: 1 0 100%;
+  }
+
+  .project-list > li:nth-child(even) {
+    margin-left: 0;
+  }
+
+  .contact-form {
+    margin: 20px 20px 0;
+  }
+
+  .proficiencies {
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .dev-name {
+    margin-left: 0;
+    padding: 10px 0 0;
+  }
+  
+  header nav ul {
+    justify-content: center;
+    padding-top: 0;
+  }
+
+  header nav ul li {
+    padding-top: 20px;
+  }
+
+  header nav ul li a {
+    margin: 10px;
+  }
+
+  .about-me div {
+    flex: 1 0 100%;
+  }
+
+  .about-me img {
+    margin: 10px 0;
+  }
+
+  .proficiencies {
+    margin-left: 20px;
+  }
+
+  .contact-form textarea {
+    margin-bottom: 5px;
+  }
+
+  .error-text {
+    height: 2em;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 476px) {
+  .project-list > li {
+    padding-left: 15px;
+  }
+  
+  .project-list .project-description {
+    padding: 20px 5px 15px;
+  }
+  
+  .proficiencies {
+    display: block;
+  }
+
+  .proficiencies div {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .header-block {
+    padding: 20px 30px 10px;
+  }
+
+  .project-title {
+    font-size: 22px;
+  }
+  
+  .project-list > li {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .resume p {
+    margin-bottom: 15px;
+  }
+
+  .proficiencies {
+    padding-bottom: 30px;
+    margin: 0;
+  }
+}

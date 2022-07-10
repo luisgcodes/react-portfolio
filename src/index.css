@@ -277,3 +277,26 @@ header nav ul li a:hover {
 .project-list li:hover .project-description {
   visibility: visible;
 }
+
+/* Resume Page styles */
+
+.resume p {
+  text-align: center;
+  margin: 30px auto;
+  font-size: 30px;
+  padding-top: 60px;
+}
+
+.resume a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.resume a:hover {
+  color: var(--link-color);
+}
+
+.resume p a svg {
+  margin-left: 3px;
+  vertical-align: middle;
+}

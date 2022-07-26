@@ -242,6 +242,10 @@ header nav ul li a:hover {
   background-image: url(./assets/images/weatherdash.PNG);
   background-size: cover;
 }
+.project-six::before {
+  background-image: url(./assets/images/FreelancrApp.png);
+  background-size: cover;
+}
 
 /* Project styles */
 
